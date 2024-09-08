@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 9vh;
+    border-bottom: 1px solid rgb(244, 90, 244);
+}
+#logo
+{
+    color: violet;
+    font-size:25px;
+    font-weight: bolder;
+    font-size: 30px;
+    float: left;
+    padding: 2px;
+    margin-left: 6%;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+ul{
+    margin: 10px 34vw;
+    padding-top: 5px;
+}
+ul>li{
+    display: inline;
+    list-style: none;
+    
+}
+ul>li>a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    color:violet;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    font-weight: bolder;
+}
+ul>li>a:hover{
+    color: rgb(232, 7, 252);;
+    text-decoration: underline;
+    transform: translateY(-2px);   
+}
+#btn{
+    display: block;
+    float: right;
+    top: -46px;
+    position: relative;
+    padding: 10px;
+    margin-right: 7%;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    /* font-weight: bolder; */
+    border-radius: 5px;
+    background-color: rgb(250, 213, 241);
+    color: violet;
+    cursor: pointer;
+    border: unset;
+}
+#btn:hover{
+    color:white;
+    background-color: violet;
+}
+
+main{
+    top: 25vh;
+    position: relative;
+    }
+    #left{
+        float: left;
+        
+        margin-left: 10%;
+        width: 37%;
+        font-size: 30px;
+        
+    }
+    #left h1{
+        text-transform: capitalize;
+        color: rgb(77, 76, 76);
+        margin-bottom: 20px;
+    }
+    #left span{
+        color: violet;
+    }
+    #right{
+        
+        float: right;
+        width: 36%;
+        margin-right: 10%;
+        height: 66vh;
+    }
+    #right img{
+        width: 100%;
+        height: 100%;
+    }
+    #btn2{
+        margin-top: 60px;
+        float: left;
+        width: auto;
+        color: white;
+        display: block;
+        background-color: rgb(248, 193, 248);
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 50px;
+        border: unset;
+        border-radius: 10px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    #btn2:hover{
+        background-color: violet;
+    }
+    .footer{
+        
+        margin-top: 100vh;
+        margin-left: 5%;
+        
+    }
+    .footer img{
+        height: 46px;
+        width: 46px;
+        border-radius: 100%;
+    
+    }
+    #ftr{
+        top: -15px;
+        position: relative;
+        color:black;
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 10px;
+        margin: 10px;
+    }
+#ftr2{
+    color: grey;
+    font-size: 20px;
+}
